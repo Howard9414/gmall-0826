@@ -3,6 +3,7 @@ package com.example.gmallpublisher.service.impl;
 import com.example.gmallpublisher.mapper.DauMapper;
 import com.example.gmallpublisher.service.DauService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
 import java.util.List;
@@ -12,6 +13,7 @@ import java.util.Map;
  * @author Howard
  * @create 2020-02-20-8:28 下午
  */
+@Service
 public class DauServiceImpl implements DauService {
 
     @Autowired
